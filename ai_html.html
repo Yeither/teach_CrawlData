@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>初学者HTML模板</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .example-section {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 4px solid #007acc;
+            background-color: #f9f9f9;
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .note {
+            background-color: #fff8dc;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>HTML初学者模板</h1>
+            <p>这是一个为初学者设计的HTML基础模板，包含了常用的HTML元素和结构</p>
+        </header>
+
+        <main>
+            <section class="example-section">
+                <h2>1. 标题示例</h2>
+                <h1>这是h1标题（最大）</h1>
+                <h2>这是h2标题</h2>
+                <h3>这是h3标题</h3>
+                <h4>这是h4标题</h4>
+                <h5>这是h5标题</h5>
+                <h6>这是h6标题（最小）</h6>
+            </section>
+
+            <section class="example-section">
+                <h2>2. 文本段落</h2>
+                <p>这是一个段落标签(p标签)。段落是网页中最常用的文本元素，用于组织内容。</p>
+                <p>这是另一个段落。你可以在这里添加更多的文本内容来展示你的网页信息。</p>
+            </section>
+
+            <section class="example-section">
+                <h2>3. 列表示例</h2>
+                <h3>无序列表</h3>
+                <ul>
+                    <li>列表项1</li>
+                    <li>列表项2</li>
+                    <li>列表项3</li>
+                </ul>
+
+                <h3>有序列表</h3>
+                <ol>
+                    <li>第一项</li>
+                    <li>第二项</li>
+                    <li>第三项</li>
+                </ol>
+            </section>
+
+            <section class="example-section">
+                <h2>4. 链接示例</h2>
+                <p>这是一个外部链接: <a href="https://www.baidu.com" target="_blank">访问百度</a></p>
+                <p>这是一个内部链接: <a href="#section5">跳转到表单部分</a></p>
+            </section>
+
+            <section class="example-section">
+                <h2>5. 图片示例</h2>
+                <img src="https://picsum.photos/300/200" alt="示例图片描述" width="300" height="200">
+            </section>
+
+            <section class="example-section" id="section5">
+                <h2>6. 表单示例</h2>
+                <form>
+                    <div>
+                        <label for="name">姓名:</label>
+                        <input type="text" id="name" name="name" placeholder="请输入您的姓名">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">邮箱:</label>
+                        <input type="email" id="email" name="email" placeholder="请输入您的邮箱">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="message">留言:</label>
+                        <textarea id="message" name="message" rows="4" cols="50" placeholder="请输入您的留言"></textarea>
+                    </div>
+                    <br>
+                    <button type="submit">提交</button>
+                </form>
+            </section>
+
+            <section class="example-section">
+                <h2>7. 表格示例</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>姓名</th>
+                            <th>年龄</th>
+                            <th>城市</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>张三</td>
+                            <td>25</td>
+                            <td>北京</td>
+                        </tr>
+                        <tr>
+                            <td>李四</td>
+                            <td>30</td>
+                            <td>上海</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <div class="note">
+                <h3>学习提示</h3>
+                <p>这个模板包含了HTML的基本元素，初学者可以在此基础上进行修改和练习。</p>
+                <ul>
+                    <li>修改标题和段落内容</li>
+                    <li>添加更多列表项</li>
+                    <li>更改链接地址</li>
+                    <li>添加更多表单元素</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
